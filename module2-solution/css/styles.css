@@ -1,0 +1,108 @@
+
+/**********Estilos del Contenido **********/
+  *{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    border:0;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 175%;
+  }
+
+  p {
+    font-family: Helvetica;
+    color: rgb(0, 0, 0);
+    margin-top: 25px;
+    text-align: justify;
+  }
+  
+  .container{
+    position: relative;
+    top:15px;
+    margin: 10px; 
+  }
+
+  /**********Columna**********/
+  .row {
+    width: 100%;
+  }
+  /***************************/
+
+  .Cuadrado{
+    margin: 10px;
+    padding: 20px;
+    position: relative;
+    background-color:#e0ddcf;
+    border: 1px solid #000;
+  }
+
+  .Título{
+    padding: 4px 70px 4px 70px;
+    position: absolute;
+    top:0;
+    right: 0px;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    font-size: 125%;
+  }
+
+
+  #Pollo{
+    background-color: #D59898;
+  }
+
+  #Carne{
+    background-color: #c24242;
+    color:antiquewhite;
+  }
+
+  #Sushi{
+    background-color: #8477a0;
+  }
+
+
+  /**********Version de escritorio**********/
+  @media (min-width: 992px) {
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+      float: left;
+    }
+
+    .col-lg-4 {
+      width: 33.33%;
+    }
+
+  }
+  
+  /**********Version de tableta**********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+      float: left;
+    }
+    
+    .col-md-6 {
+      width: 50%;
+    }
+    
+    .col-md-12 {
+      width: 100%;
+    }
+  }
+
+   /**********Version de movil**********/
+   @media (max-width: 767px) {
+    .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+      float: left;
+    }
+
+    .col-sm-12 {
+      width: 100%;
+    }
+  }
+  
+  
